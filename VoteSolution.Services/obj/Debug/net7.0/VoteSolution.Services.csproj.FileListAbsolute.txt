@@ -1,0 +1,12 @@
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.csproj.AssemblyReference.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.AssemblyInfoInputs.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.AssemblyInfo.cs
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.csproj.CoreCompileInputs.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.deps.json
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.dll
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.pdb
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.dll
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\refint\VoteSolution.Services.dll
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.pdb
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\ref\VoteSolution.Services.dll
