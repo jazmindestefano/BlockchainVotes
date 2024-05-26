@@ -1,0 +1,39 @@
+﻿@model List<VoteSolution.Web.Models.VoteViewModel>
+
+@{
+    ViewData["Title"] = "All Votes";
+}
+
+<div class="text-center">
+    <h1 class="display-4">All Votes</h1>
+</div>
+
+@if (Model.Count > 0)
+{
+    <div class="container">
+        <div class="row">
+            @foreach (var vote in Model)
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@vote.Title</h5>
+                            <p class="card-text">@vote.Description</p>
+                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>No hay votaciones disponibles.</p>
+            </div>
+        </div>
+    </div>
+}

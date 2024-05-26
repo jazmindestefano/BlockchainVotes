@@ -1,6 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Nethereum.Web3;
 using Nethereum.Web3.Accounts;
+using VoteSolution.Services;
 using VoteSolution.Services.Interfaces;
 using VoteSolution.Services.Services;
 
@@ -9,8 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Registrar SignTransactionsService y BlockchainService
 builder.Services.AddScoped<IBlockchainService, BlockchainService>();
+builder.Services.AddScoped<IVoteService, VoteService>();
 
 // Registrar Web3 como singleton
 builder.Services.AddSingleton<Web3>(provider =>
@@ -42,5 +43,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();
