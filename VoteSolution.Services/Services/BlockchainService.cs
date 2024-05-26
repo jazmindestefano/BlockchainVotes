@@ -18,19 +18,28 @@ namespace VoteSolution.Services.Services
         public BlockchainService(Web3 web3)
         {
             _web3 = web3;
-            _contract = _web3.Eth.GetContract(ContractAbi.ContractAbi.ABI, "0xfe6c2dc1828860ffd1f30c84f6e7827489c3829f");
+            _contract = _web3.Eth.GetContract(ContractAbi.ContractAbi.ABI, "0x07920c83A2FD18c063996bDaf6e64f5BAda679e1");
         }
 
         public async Task CreateVoteAsync(string voteName)
         {
-            // Obtén la referencia de la función createVote
-            var createVoteFunction = _contract.GetFunction("createVote");
+            try
+            {
+                var createVoteFunction = _contract.GetFunction("createVote");
+                var gas = new HexBigInteger(3000000);
+                var value = new HexBigInteger(0);
 
-            // Envía la transacción y obtén el hash de la transacción
-            var transactionHash = await createVoteFunction.SendTransactionAsync("0xE1724818D579622972542819dd95569135C0F52E", new HexBigInteger(3000000), null, voteName);
+                var transactionReceipt = await createVoteFunction.SendTransactionAndWaitForReceiptAsync("0xE1724818D579622972542819dd95569135C0F52E", gas, value, null, voteName);
 
-            // Imprime el hash de la transacción
-            Console.WriteLine($"Transacción enviada. Hash de la transacción: {transactionHash}");
+
+                Console.WriteLine($"Transacción enviada. Hash de la transacción: {transactionReceipt.TransactionHash}");
+                Console.WriteLine($"Transacción enviada. Block de la transacción: {transactionReceipt.BlockHash}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Se produjo una excepción al enviar la transacción: {ex.Message}");
+            }
+
         }
     }
 }

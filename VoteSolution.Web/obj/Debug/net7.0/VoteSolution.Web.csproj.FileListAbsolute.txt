@@ -1,11 +1,3 @@
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.csproj.AssemblyReference.cache
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.AssemblyInfoInputs.cache
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.AssemblyInfo.cs
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.csproj.CoreCompileInputs.cache
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.RazorAssemblyInfo.cache
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.RazorAssemblyInfo.cs
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\bin\Debug\net7.0\appsettings.json
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\bin\Debug\net7.0\VoteSolution.Web.staticwebassets.runtime.json
@@ -38,6 +30,14 @@ C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\bin\Debug\net7.0\Vote
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\bin\Debug\net7.0\VoteSolution.Services.dll
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\bin\Debug\net7.0\VoteSolution.Entities.pdb
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\bin\Debug\net7.0\VoteSolution.Services.pdb
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.csproj.AssemblyReference.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.AssemblyInfoInputs.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.AssemblyInfo.cs
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.csproj.CoreCompileInputs.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.RazorAssemblyInfo.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\VoteSolution.Web.RazorAssemblyInfo.cs
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\staticwebassets\msbuild.VoteSolution.Web.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\staticwebassets\msbuild.build.VoteSolution.Web.props
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.VoteSolution.Web.props
