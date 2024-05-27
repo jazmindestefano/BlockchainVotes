@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\VoteSolution.Services.csproj": {}
+    "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\VoteSolution.Services.csproj": {
+    "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\VoteSolution.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj",
         "projectName": "VoteSolution.Services",
-        "projectPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\VoteSolution.Services.csproj",
-        "packagesPath": "C:\\Users\\jdestefano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\obj\\",
+        "projectPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj",
+        "packagesPath": "C:\\Users\\Ain Ponce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jdestefano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ain Ponce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/payretailers/_packaging/payretailers/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -35,12 +34,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
             "Nethereum.Contracts": {
               "target": "Package",
               "version": "[4.20.0, )"
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     }

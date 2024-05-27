@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A93F66-1A34-4084-82FA-EDC2A658932C}|VoteSolution.Entities\\VoteSolution.Entities.csproj|c:\\users\\ain ponce\\source\\repos\\blockchainvotes\\votesolution.entities\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A93F66-1A34-4084-82FA-EDC2A658932C}|VoteSolution.Entities\\VoteSolution.Entities.csproj|solutionrelative:votesolution.entities\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A93F66-1A34-4084-82FA-EDC2A658932C}|VoteSolution.Entities\\VoteSolution.Entities.csproj|c:\\users\\ain ponce\\source\\repos\\blockchainvotes\\votesolution.entities\\models\\votation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A93F66-1A34-4084-82FA-EDC2A658932C}|VoteSolution.Entities\\VoteSolution.Entities.csproj|solutionrelative:votesolution.entities\\models\\votation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 291,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "VoteSolution.Entities\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "VoteSolution.Entities\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:36:46.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Votation.cs",
+              "DocumentMoniker": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\Models\\Votation.cs",
+              "RelativeDocumentMoniker": "VoteSolution.Entities\\Models\\Votation.cs",
+              "ToolTip": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\Models\\Votation.cs",
+              "RelativeToolTip": "VoteSolution.Entities\\Models\\Votation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:36:45.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 291,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
