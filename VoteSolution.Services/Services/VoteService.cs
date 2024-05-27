@@ -1,31 +1,36 @@
-﻿using System.Threading.Tasks;
-using VoteSolution.Services.Interfaces;
+﻿using VoteSolution.Services.Interfaces;
+using VoteSolution.Entities;
 
 namespace VoteSolution.Services
 {
     public class VoteService : IVoteService
     {
         private readonly IBlockchainService _blockchainService;
+        private static List<Vote> _votes = new List<Vote>();
 
         public VoteService(IBlockchainService blockchainService)
         {
             _blockchainService = blockchainService;
         }
 
-        public Task<bool> CheckUserAddress(string userAddress)
+        public List<Vote> GetAllVotes()
         {
-            if (userAddress == "0xE1724818D579622972542819dd95569135C0F52E")
-            {
-                return Task.FromResult(true);
-            }
-            return Task.FromResult(false);
+            return _votes
+                .OrderBy(v => v.Id)
+                .ToList();
         }
 
 
-        public async Task CreateVoteAsync(string voteName)
+        public void CreateVoteAsync(Vote vote)
         {
+            vote.Id = _votes.Count == 0
+                            ? 1 :
+                            _votes.Max(v => v.Id) + 1;
+
+            _votes.Add(vote);
+
             // comentado para no hacer demasiadas transacciones
-            //a await _blockchainService.CreateVoteAsync(voteName);
+            //a await _blockchainService.CreateVoteAsync(vote.Name);
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿@model List<VoteSolution.Web.Models.VoteViewModel>
 
 @{
-    ViewData["Title"] = "All Votes";
+    ViewData["Name"] = "All Votes";
 }
 
 <div class="text-center">
@@ -17,7 +17,7 @@
                 <div class="col-md-4 mb-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">@vote.Title</h5>
+                            <h5 class="card-title">@vote.Name</h5>
                             <p class="card-text">@vote.Description</p>
                             <a href="#" class="btn btn-primary">Ver detalles</a>
                         </div>

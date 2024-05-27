@@ -309,6 +309,16 @@
             "related": ".xml"
           }
         }
+      },
+      "VoteSolution.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/VoteSolution.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VoteSolution.Entities.dll": {}
+        }
       }
     }
   },
@@ -786,6 +796,11 @@
         "portable.bouncycastle.1.8.2.nupkg.sha512",
         "portable.bouncycastle.nuspec"
       ]
+    },
+    "VoteSolution.Entities/1.0.0": {
+      "type": "project",
+      "path": "../VoteSolution.Entities/VoteSolution.Entities.csproj",
+      "msbuildProject": "../VoteSolution.Entities/VoteSolution.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -793,7 +808,8 @@
       "Nethereum.Contracts >= 4.20.0",
       "Nethereum.JsonRpc.RpcClient >= 4.20.0",
       "Nethereum.Signer >= 4.20.0",
-      "Nethereum.Web3 >= 4.20.0"
+      "Nethereum.Web3 >= 4.20.0",
+      "VoteSolution.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -823,7 +839,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
+              "projectPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Entities\\VoteSolution.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

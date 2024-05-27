@@ -10,3 +10,6 @@ C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\refint\VoteSolution.Services.dll
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.pdb
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\ref\VoteSolution.Services.dll
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Entities.dll
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Entities.pdb
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.csproj.CopyComplete

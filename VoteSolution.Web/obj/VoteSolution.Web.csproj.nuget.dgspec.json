@@ -84,7 +84,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
+                "projectPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Entities\\VoteSolution.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

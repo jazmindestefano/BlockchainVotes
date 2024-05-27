@@ -11,7 +11,8 @@
           "Nethereum.Contracts": "4.20.0",
           "Nethereum.JsonRpc.RpcClient": "4.20.0",
           "Nethereum.Signer": "4.20.0",
-          "Nethereum.Web3": "4.20.0"
+          "Nethereum.Web3": "4.20.0",
+          "VoteSolution.Entities": "1.0.0"
         },
         "runtime": {
           "VoteSolution.Services.dll": {}
@@ -284,6 +285,11 @@
             "fileVersion": "1.8.2.223"
           }
         }
+      },
+      "VoteSolution.Entities/1.0.0": {
+        "runtime": {
+          "VoteSolution.Entities.dll": {}
+        }
       }
     }
   },
@@ -439,6 +445,11 @@
       "sha512": "sha512-XpJVIhjPiO0o+DU36eeIzqnRilDmE8Z7Kfhm9V9o1yNqM3ikgleD94Z5W/LeEu3t63LaZl2CNJexaix+I6AUMg==",
       "path": "portable.bouncycastle/1.8.2",
       "hashPath": "portable.bouncycastle.1.8.2.nupkg.sha512"
+    },
+    "VoteSolution.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

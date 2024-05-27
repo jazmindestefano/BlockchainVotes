@@ -327,7 +327,8 @@
           "Nethereum.Contracts": "4.20.0",
           "Nethereum.JsonRpc.RpcClient": "4.20.0",
           "Nethereum.Signer": "4.20.0",
-          "Nethereum.Web3": "4.20.0"
+          "Nethereum.Web3": "4.20.0",
+          "VoteSolution.Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VoteSolution.Services.dll": {}
