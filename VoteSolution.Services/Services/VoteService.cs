@@ -21,7 +21,7 @@ namespace VoteSolution.Services
         }
 
 
-        public void CreateVoteAsync(Vote vote)
+        public async void CreateVoteAsync(Vote vote)
         {
             vote.Id = _votes.Count == 0
                             ? 1 :
@@ -30,7 +30,8 @@ namespace VoteSolution.Services
             _votes.Add(vote);
 
             // comentado para no hacer demasiadas transacciones
-            //a await _blockchainService.CreateVoteAsync(vote.Name);
+
+            await _blockchainService.CreateVoteAsync(vote.Name);
         }
     }
 }

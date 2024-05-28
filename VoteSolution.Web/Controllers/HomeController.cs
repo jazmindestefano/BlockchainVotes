@@ -33,7 +33,7 @@ namespace VoteSolution.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult RegistrarVenta(VoteViewModel model)
+        public IActionResult CreateVote(VoteViewModel model)
         {
             if (!ModelState.IsValid)
                 return View(model);
