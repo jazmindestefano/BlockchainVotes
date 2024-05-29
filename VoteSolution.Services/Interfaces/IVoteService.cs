@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using VoteSolution.Entities;
 
 namespace VoteSolution.Services.Interfaces
 {
     public interface IVoteService
     {
-        Task<bool> CheckUserAddress(string userAddress);
+        void CreateVoteAsync(Vote vote);
 
-        Task CreateVoteAsync(string voteName);
+        List<Vote> GetAllVotes();
     }
 }

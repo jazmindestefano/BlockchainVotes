@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {}
+    "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
+    "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj",
         "projectName": "VoteSolution.Entities",
-        "projectPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj",
+        "projectPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj",
         "packagesPath": "C:\\Users\\Ain Ponce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ain Ponce\\AppData\\Roaming\\NuGet\\NuGet.Config",

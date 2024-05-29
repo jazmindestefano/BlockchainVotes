@@ -1300,7 +1300,8 @@
           "Nethereum.Contracts": "4.20.0",
           "Nethereum.JsonRpc.RpcClient": "4.20.0",
           "Nethereum.Signer": "4.20.0",
-          "Nethereum.Web3": "4.20.0"
+          "Nethereum.Web3": "4.20.0",
+          "VoteSolution.Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VoteSolution.Services.dll": {}
@@ -3463,11 +3464,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Web\\VoteSolution.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Web\\VoteSolution.Web.csproj",
       "projectName": "VoteSolution.Web",
-      "projectPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Web\\VoteSolution.Web.csproj",
+      "projectPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Web\\VoteSolution.Web.csproj",
       "packagesPath": "C:\\Users\\Ain Ponce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Web\\obj\\",
+      "outputPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ain Ponce\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3484,11 +3485,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
-              "projectPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj"
+            "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
+              "projectPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj"
             },
-            "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj": {
-              "projectPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj"
+            "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj": {
+              "projectPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj"
             }
           }
         }

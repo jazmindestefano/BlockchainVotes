@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4apzkA/GuglTcXsGnSD/Hjgh/cVHjh1I3+i1DUy3koEf7vKm1p1bErsmJJ39I4rbvm5ELjzYvab9lW3emItkxg==",
+  "dgSpecHash": "Aj8Sm8wqlRbkU6L6Gl185V8d8Ck+XDnQVRDRya43pTn7D+G7iziS76yHtJ//QCK9zDKggXBWfFQIPhIK5SZdCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ain Ponce\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Ain Ponce\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

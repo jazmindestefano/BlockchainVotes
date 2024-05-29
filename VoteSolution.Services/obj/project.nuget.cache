@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MP7f/dEANBWfQqZj0GFnnW3UKIcW/ij6Ks+fQL9vi0SGw8zk/RvP37s02f2oSX4Ea/UJ1z+sZkbO5kELR7LHjw==",
+  "dgSpecHash": "8ut8QyXbQKpJAHezYAG8j1A5ZOefh9VAi4DOsMpKGfvqEiNsLaB94nrkikRWTt3p6X2eLomooszYM2fpFOMZxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj",
+  "projectFilePath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ain Ponce\\.nuget\\packages\\adraffy.ensnormalize\\0.1.5\\adraffy.ensnormalize.0.1.5.nupkg.sha512",
     "C:\\Users\\Ain Ponce\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

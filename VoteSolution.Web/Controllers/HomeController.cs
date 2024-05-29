@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Diagnostics;
-using System.Threading.Tasks;
 using VoteSolution.Services.Interfaces;
 using VoteSolution.Web.Models;
 
@@ -34,21 +32,35 @@ namespace VoteSolution.Web.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult CreateVote()
+        [HttpPost]
+        public IActionResult CreateVote(VoteViewModel model)
         {
-            return View();
-        }
+            if (!ModelState.IsValid)
+                return View(model);
 
-        // Para validar mas adelante que tengas que entrar tu address y valide si podes crear votaciones o no
-        public IActionResult Help()
-        {
-            return View();
+            _voteService.CreateVoteAsync(model.MapearAEntidad());
+
+            return RedirectToAction("AllVotes");
         }
 
         public IActionResult AllVotes()
         {
-            var votaciones = new List<VoteViewModel>();
-            return View(votaciones);
+            var votes = _voteService.GetAllVotes();
+
+            var VotesModelLista = VoteViewModel.MapearAListaModel(votes);
+
+            return View(VotesModelLista);
+        }
+
+        public IActionResult CreateVote()
+        { 
+            return View();
+        }
+
+        // Para validar mas adelante que tengas que entrar tu address y valide si podes crear votaciones o no ??
+        public IActionResult Help()
+        {
+            return View();
         }
 
     }

@@ -1277,6 +1277,20 @@
             "rid": "win"
           }
         }
+      },
+      "VoteSolution.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.19",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.19"
+        },
+        "compile": {
+          "bin/placeholder/VoteSolution.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VoteSolution.Entities.dll": {}
+        }
       }
     }
   },
@@ -3406,6 +3420,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "VoteSolution.Entities/1.0.0": {
+      "type": "project",
+      "path": "../VoteSolution.Entities/VoteSolution.Entities.csproj",
+      "msbuildProject": "../VoteSolution.Entities/VoteSolution.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3414,7 +3433,8 @@
       "Nethereum.Contracts >= 4.20.0",
       "Nethereum.JsonRpc.RpcClient >= 4.20.0",
       "Nethereum.Signer >= 4.20.0",
-      "Nethereum.Web3 >= 4.20.0"
+      "Nethereum.Web3 >= 4.20.0",
+      "VoteSolution.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3423,11 +3443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj",
       "projectName": "VoteSolution.Services",
-      "projectPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj",
+      "projectPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj",
       "packagesPath": "C:\\Users\\Ain Ponce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ain Ponce\\source\\repos\\BlockchainVotes\\VoteSolution.Services\\obj\\",
+      "outputPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ain Ponce\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3443,7 +3463,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
+              "projectPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
