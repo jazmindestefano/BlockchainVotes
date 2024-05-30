@@ -1,10 +1,20 @@
-﻿namespace VoteSolution.Entities.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace VoteSolution.Entities.Models
 {
     public class Votation
     {
+        [Key]
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public string Options { get; set; }
+        [Required]
+        [MaxLength(50)]
+        public required string Title { get; set; }
+        [Required]
+        [MaxLength(200)]
+        public required string Description { get; set; }
+        [Required]
+        [MaxLength(50)]
+        public required string Options { get; set; }
+        public bool Active { get; set; }
     }
 }

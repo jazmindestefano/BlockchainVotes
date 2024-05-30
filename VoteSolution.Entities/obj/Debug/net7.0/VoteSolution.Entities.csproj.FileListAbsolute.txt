@@ -22,3 +22,5 @@ C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\
 C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\refint\VoteSolution.Entities.dll
 C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.pdb
 C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\ref\VoteSolution.Entities.dll
+C:\Users\Ain Ponce\Source\Repos\BlockchainVotes\VoteSolution.Entities\bin\Debug\net7.0\VoteSolution.Entities.runtimeconfig.json
+C:\Users\Ain Ponce\Source\Repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.genruntimeconfig.cache
