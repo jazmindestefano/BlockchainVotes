@@ -3,6 +3,21 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# Ignorar todas las DLL en cualquier lugar del proyecto
+*.dll
+
+# Ignorar las carpetas bin y obj en cada proyecto
+VoteSolution.Entities/bin/
+VoteSolution.Entities/obj/
+VoteSolution.Web/bin/
+VoteSolution.Web/obj/
+VoteSolution.Services/bin/
+VoteSolution.Services/obj/
+
+# Ignorar paquetes de NuGet
+packages/
+
+
 # dotenv files
 .env
 

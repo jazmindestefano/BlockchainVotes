@@ -3728,19 +3728,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ain Ponce\\.nuget\\packages\\": {}
+    "C:\\Users\\jdestefano\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Web\\VoteSolution.Web.csproj",
+      "projectUniqueName": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Web\\VoteSolution.Web.csproj",
       "projectName": "VoteSolution.Web",
-      "projectPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Web\\VoteSolution.Web.csproj",
-      "packagesPath": "C:\\Users\\Ain Ponce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Web\\obj\\",
+      "projectPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Web\\VoteSolution.Web.csproj",
+      "packagesPath": "C:\\Users\\jdestefano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ain Ponce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jdestefano\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3748,17 +3748,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/payretailers/_packaging/payretailers/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
-              "projectPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Entities\\VoteSolution.Entities.csproj"
+            "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
+              "projectPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Entities\\VoteSolution.Entities.csproj"
             },
-            "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj": {
-              "projectPath": "C:\\Users\\Ain Ponce\\Source\\Repos\\BlockchainVotes\\VoteSolution.Services\\VoteSolution.Services.csproj"
+            "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\VoteSolution.Services.csproj": {
+              "projectPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\VoteSolution.Services.csproj"
             }
           }
         }
@@ -3767,11 +3768,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3818,7 +3814,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,15 +1,3 @@
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.deps.json
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.dll
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.pdb
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.csproj.AssemblyReference.cache
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.AssemblyInfoInputs.cache
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.AssemblyInfo.cs
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.csproj.CoreCompileInputs.cache
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.dll
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\refint\VoteSolution.Services.dll
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.pdb
-C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\ref\VoteSolution.Services.dll
 C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.deps.json
 C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.dll
 C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.pdb
@@ -28,3 +16,20 @@ C:\Users\Ain Ponce\Source\Repos\BlockchainVotes\VoteSolution.Services\bin\Debug\
 C:\Users\Ain Ponce\Source\Repos\BlockchainVotes\VoteSolution.Services\obj\Debug\net7.0\VoteSolu.E2019DFA.Up2Date
 C:\Users\Ain Ponce\Source\Repos\BlockchainVotes\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.runtimeconfig.json
 C:\Users\Ain Ponce\Source\Repos\BlockchainVotes\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.genruntimeconfig.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.deps.json
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.runtimeconfig.json
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.dll
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Services.pdb
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Entities.dll
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\bin\Debug\net7.0\VoteSolution.Entities.pdb
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.csproj.AssemblyReference.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.AssemblyInfoInputs.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.AssemblyInfo.cs
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.csproj.CoreCompileInputs.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.csproj.CopyComplete
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.dll
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\refint\VoteSolution.Services.dll
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.pdb
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\VoteSolution.Services.genruntimeconfig.cache
+C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Services\obj\Debug\net7.0\ref\VoteSolution.Services.dll
