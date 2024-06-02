@@ -1,14 +1,22 @@
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 using Nethereum.Web3;
 using Nethereum.Web3.Accounts;
 using VoteSolution.Services;
 using VoteSolution.Services.Interfaces;
 using VoteSolution.Services.Services;
+using VoteSolution.Entities.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add DbContext from VoteSolution.Entities
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+ {
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 builder.Services.AddScoped<IBlockchainService, BlockchainService>();
 builder.Services.AddScoped<IVoteService, VoteService>();

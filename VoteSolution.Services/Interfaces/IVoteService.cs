@@ -1,4 +1,4 @@
-﻿using VoteSolution.Entities;
+﻿using VoteSolution.Entities.Models;
 
 namespace VoteSolution.Services.Interfaces
 {

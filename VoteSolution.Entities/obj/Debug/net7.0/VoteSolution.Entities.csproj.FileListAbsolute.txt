@@ -9,3 +9,18 @@ C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Entities\obj\Debug\net7.0
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Entities\obj\Debug\net7.0\refint\VoteSolution.Entities.dll
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.pdb
 C:\Users\jdestefano\Projects\VoteSolution\VoteSolution.Entities\obj\Debug\net7.0\ref\VoteSolution.Entities.dll
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\bin\Debug\net7.0\VoteSolution.Entities.deps.json
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\bin\Debug\net7.0\VoteSolution.Entities.dll
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\bin\Debug\net7.0\VoteSolution.Entities.pdb
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.csproj.AssemblyReference.cache
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.AssemblyInfoInputs.cache
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.AssemblyInfo.cs
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.sourcelink.json
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.dll
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\refint\VoteSolution.Entities.dll
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.pdb
+C:\Users\Ain Ponce\source\repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\ref\VoteSolution.Entities.dll
+C:\Users\Ain Ponce\Source\Repos\BlockchainVotes\VoteSolution.Entities\bin\Debug\net7.0\VoteSolution.Entities.runtimeconfig.json
+C:\Users\Ain Ponce\Source\Repos\BlockchainVotes\VoteSolution.Entities\obj\Debug\net7.0\VoteSolution.Entities.genruntimeconfig.cache
