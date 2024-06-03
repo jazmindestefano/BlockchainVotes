@@ -16,13 +16,13 @@ namespace VoteSolution.Entities.Models
 
         public int Id { get; set; }
 
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         public int TotalVotes { get; set; } = 0;
 
-        public int VotationId { get; set; }
+        public int? VotationId { get; set; }
 
-        public Votation Votation { get; set; }
+        public Votation? Votation { get; set; }
         
     }
 }

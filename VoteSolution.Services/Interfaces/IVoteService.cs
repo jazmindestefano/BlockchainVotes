@@ -4,8 +4,8 @@ namespace VoteSolution.Services.Interfaces
 {
     public interface IVoteService
     {
-        void CreateVoteAsync(Vote vote);
+        void CreateVotationAsync(Votation votation);
 
-        List<Vote> GetAllVotes();
+        List<Votation> GetAllVotationsAsync();
     }
 }

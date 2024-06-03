@@ -21,7 +21,7 @@ namespace VoteSolution.Services.Services
             _contract = _web3.Eth.GetContract(ContractAbi.ContractAbi.ABI, "0x07920c83A2FD18c063996bDaf6e64f5BAda679e1");
         }
 
-        public async Task CreateVoteAsync(string voteName)
+        public async Task CreateVotationAsync(string voteName)
         {
             try
             {

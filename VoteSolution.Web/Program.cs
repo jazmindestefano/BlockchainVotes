@@ -19,7 +19,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 builder.Services.AddScoped<IBlockchainService, BlockchainService>();
-builder.Services.AddScoped<IVoteService, VoteService>();
+builder.Services.AddScoped<IVoteService, VotationService>();
 
 // Registrar Web3 como singleton
 builder.Services.AddSingleton<Web3>(provider =>
