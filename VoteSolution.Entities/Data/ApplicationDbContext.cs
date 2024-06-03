@@ -13,15 +13,16 @@ namespace VoteSolution.Entities.Data
         public virtual DbSet<Votation> Votations { get; set; }
 
         public virtual DbSet<Option> Options { get; set; }
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Votation>(entity =>
             {
                 entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).ValueGeneratedOnAdd().IsRequired();
                 entity.Property(e => e.Title).IsRequired().HasMaxLength(50);
                 entity.Property(e => e.Description).IsRequired().HasMaxLength(200);
-                entity.Property(e => e.isActive).IsRequired();
+                entity.Property(e => e.IsActive).IsRequired();
 
                 entity.HasMany(e => e.Options)
                       .WithOne(o => o.Votation)
@@ -31,10 +32,13 @@ namespace VoteSolution.Entities.Data
             modelBuilder.Entity<Option>(entity =>
             {
                 entity.HasKey(e => e.Id);
-                entity.Property(e => e.isWinner).IsRequired();
-                entity.Property(e => e.PeopleVoted);
-                entity.Property(e => e.Name).IsRequired();
+                entity.Property(e => e.Id).ValueGeneratedOnAdd().IsRequired();
+                entity.Property(e => e.Name).IsRequired().HasMaxLength(50);
                 entity.Property(e => e.VotationId).IsRequired();
+                
+                entity.HasOne(e => e.Votation)
+                    .WithMany(o => o.Options)
+                    .HasForeignKey(o => o.VotationId);
             });
         }
     }
