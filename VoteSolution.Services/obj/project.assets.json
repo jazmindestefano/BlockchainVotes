@@ -3707,35 +3707,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jdestefano\\.nuget\\packages\\": {}
+    "/home/lucas/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\VoteSolution.Services.csproj",
+      "projectUniqueName": "/home/lucas/facu/web3/BlockchainVotes/VoteSolution.Services/VoteSolution.Services.csproj",
       "projectName": "VoteSolution.Services",
-      "projectPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\VoteSolution.Services.csproj",
-      "packagesPath": "C:\\Users\\jdestefano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Services\\obj\\",
+      "projectPath": "/home/lucas/facu/web3/BlockchainVotes/VoteSolution.Services/VoteSolution.Services.csproj",
+      "packagesPath": "/home/lucas/.nuget/packages/",
+      "outputPath": "/home/lucas/facu/web3/BlockchainVotes/VoteSolution.Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jdestefano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/lucas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/payretailers/_packaging/payretailers/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Entities\\VoteSolution.Entities.csproj": {
-              "projectPath": "C:\\Users\\jdestefano\\Projects\\VoteSolution\\VoteSolution.Entities\\VoteSolution.Entities.csproj"
+            "/home/lucas/facu/web3/BlockchainVotes/VoteSolution.Entities/VoteSolution.Entities.csproj": {
+              "projectPath": "/home/lucas/facu/web3/BlockchainVotes/VoteSolution.Entities/VoteSolution.Entities.csproj"
             }
           }
         }
@@ -3803,7 +3800,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
       }
     }
   }
