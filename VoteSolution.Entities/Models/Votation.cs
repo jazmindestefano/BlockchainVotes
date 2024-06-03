@@ -15,7 +15,7 @@ namespace VoteSolution.Entities.Models
         [MaxLength(200)]
         public required string Description { get; set; }
 
-        public bool isActive { get; set; }
+        public bool IsActive { get; set; }
 
         public List<Option>? Options { get; set; } = new List<Option>();
     }

@@ -53,7 +53,7 @@ namespace VoteSolution.Web.Controllers
         }
 
         public IActionResult CreateVote()
-        { 
+        {
             return View();
         }
 

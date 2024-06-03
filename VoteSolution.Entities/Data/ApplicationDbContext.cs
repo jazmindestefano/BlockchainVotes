@@ -21,7 +21,7 @@ namespace VoteSolution.Entities.Data
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Title).IsRequired().HasMaxLength(50);
                 entity.Property(e => e.Description).IsRequired().HasMaxLength(200);
-                entity.Property(e => e.isActive).IsRequired();
+                entity.Property(e => e.IsActive).IsRequired();
 
                 entity.HasMany(e => e.Options)
                       .WithOne(o => o.Votation)
