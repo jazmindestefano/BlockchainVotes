@@ -16,4 +16,6 @@ Add-Migration nombrearchivo
 Update-Database
 
 Para remover la migracion
+
+```sh
 Remove-Migration nombrearchivo
