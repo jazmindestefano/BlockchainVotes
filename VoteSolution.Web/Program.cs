@@ -1,10 +1,8 @@
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Nethereum.Web3;
 using Nethereum.Web3.Accounts;
 using Repositories.Interfaces;
 using Repositories.Repositories;
-using VoteSolution.Services;
 using VoteSolution.Services.Interfaces;
 using VoteSolution.Services.Services;
 using VoteSolution.Entities.Data;
@@ -21,8 +19,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 builder.Services.AddScoped<IBlockchainService, BlockchainService>();
-builder.Services.AddScoped<IVoteService, VotationService>();
 builder.Services.AddScoped<IVotationRepository, VotationRepository>();
+builder.Services.AddScoped<IVotationService, VotationService>();
 
 // Registrar Web3 como singleton
 builder.Services.AddSingleton<Web3>(provider =>

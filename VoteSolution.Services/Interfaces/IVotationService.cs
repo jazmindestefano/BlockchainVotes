@@ -1,15 +1,18 @@
 ﻿using VoteSolution.Entities.Models;
+using VoteSolution.Services.DTO;
 
 namespace VoteSolution.Services.Interfaces
 {
-    public interface IVoteService
+    public interface IVotationService
     {
-        void CreateVotationAsync(Votation votation);
+        Votation CreateVotation(CreateVotationDto votationForm);
 
         List<Votation> GetAllVotations();
 
         Option AddVoteToOption(int optionId);
 
         Votation GetVotationById(int votationId);
+        
+        
     }
 }

@@ -12,6 +12,11 @@ namespace VoteSolution.Entities.Models
             VotationId = votationId;
         }
 
+        public Option(string name)
+        {
+            Name = name;
+        }
+
         public Option() {}
 
         public int Id { get; set; }
