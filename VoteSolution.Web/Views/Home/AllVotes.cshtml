@@ -17,9 +17,9 @@
                 <div class="col-md-4 mb-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">@vote.Name</h5>
+                            <h5 class="card-title">@vote.Title</h5>
                             <p class="card-text">@vote.Description</p>
-                            <a href="#" class="btn btn-primary">Ver detalles</a>
+                            <a class="btn btn-primary" asp-area="" asp-controller="Votation" asp-action="VotationDetails" asp-route-id="@vote.Id">Ver detalles</a>
                         </div>
                     </div>
                 </div>

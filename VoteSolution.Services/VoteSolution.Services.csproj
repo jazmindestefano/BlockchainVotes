@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VoteSolution.Entities\VoteSolution.Entities.csproj" />
+    <ProjectReference Include="..\VoteSolution.Repositories\VoteSolution.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

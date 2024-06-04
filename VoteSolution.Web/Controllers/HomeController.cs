@@ -32,26 +32,29 @@ namespace VoteSolution.Web.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        // no cambiar porque rompe con las vistas, dejar para despues
         [HttpPost]
         public IActionResult CreateVote(VoteViewModel model)
         {
             if (!ModelState.IsValid)
                 return View(model);
 
-            _voteService.CreateVoteAsync(model.MapearAEntidad());
+            _voteService.CreateVotationAsync(model.MapearAEntidad());
 
             return RedirectToAction("AllVotes");
         }
 
+        // no cambiar porque rompe con las vistas, dejar para despues
         public IActionResult AllVotes()
         {
-            var votes = _voteService.GetAllVotes();
-
+            var votes = _voteService.GetAllVotations();
+            votes.ForEach(v => v.Options.ForEach(o => Console.WriteLine(o.Id)));
             var VotesModelLista = VoteViewModel.MapearAListaModel(votes);
 
             return View(VotesModelLista);
         }
 
+        // no cambiar porque rompe con las vistas, dejar para despues
         public IActionResult CreateVote()
         {
             return View();

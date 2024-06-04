@@ -4,19 +4,23 @@ namespace VoteSolution.Entities.Models
 {
     public class Votation
     {
-        [Key]
+        public Votation(string title, string description)
+        {
+            Title = title;
+            Description = description;
+        }
+        
+        public Votation() {}
+
         public int Id { get; set; }
 
-        [Required]
-        [MaxLength(50)]
         public required string Title { get; set; }
 
-        [Required]
-        [MaxLength(200)]
         public required string Description { get; set; }
 
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
 
-        public List<Option>? Options { get; set; } = new List<Option>();
+        public List<Option> Options { get; set; } = new List<Option>();
+
     }
 }

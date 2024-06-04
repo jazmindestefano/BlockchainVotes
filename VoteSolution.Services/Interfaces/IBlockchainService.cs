@@ -8,6 +8,6 @@ namespace VoteSolution.Services.Interfaces
 {
     public interface IBlockchainService
     {
-        Task CreateVoteAsync(string voteName);
+        Task CreateVotationAsync(string voteName);
     }
 }

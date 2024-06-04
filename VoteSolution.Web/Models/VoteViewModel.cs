@@ -5,7 +5,7 @@ namespace VoteSolution.Web.Models
     public class VoteViewModel
     {
         public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
+        public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
 
         public VoteViewModel()
@@ -13,24 +13,24 @@ namespace VoteSolution.Web.Models
 
         }
 
-        public VoteViewModel(Vote entidad)
+        public VoteViewModel(Votation entidad)
         {
             Id = entidad.Id;
-            Name = entidad.Name;
+            Title = entidad.Title;
             Description = entidad.Description;
         }
 
-        public static List<VoteViewModel> MapearAListaModel(List<Vote> votes)
+        public static List<VoteViewModel> MapearAListaModel(List<Votation> votes)
         {
             return votes.Select(v => new VoteViewModel(v)).ToList();
         }
 
-        public Vote MapearAEntidad()
+        public Votation MapearAEntidad()
         {
-            return new Vote
+            return new Votation
             {
                 Id = Id,
-                Name = Name,
+                Title = Title,
                 Description = Description,
             };
         }

@@ -1,21 +1,39 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using VoteSolution.Services.Interfaces;
 using VoteSolution.Entities.Models;
+using VoteSolution.Services.Interfaces;
 using VoteSolution.Web.Models;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace VoteSolution.Web.Controllers
-{
-    public class VotationController : Controller
-    {
-        private readonly IVotationService _votationService;
+namespace VoteSolution.Web.Controllers;
 
+public class VotationController: Controller
+{
+    private readonly IVoteService _voteService;
+
+    public VotationController(IVoteService voteService)
+    {
+        _voteService = voteService;
+    }
         public VotationController(IVotationService votationService)
         {
             _votationService = votationService;
         }
 
+    public IActionResult VotationDetails(int id)
+    {
+        var voting = _voteService.GetVotationById(id);
+        var viewModel = new VotationDetailsViewModel(voting);
+        return View(viewModel);
+    }
+    
+    [HttpPost]
+    public IActionResult EmitVote(int optionId)
+    {
+        _voteService.AddVoteToOption(optionId);
+        return RedirectToAction("AllVotes", "Home");
+    }
         [HttpGet]
         public IActionResult Create()
         {
@@ -47,4 +65,4 @@ namespace VoteSolution.Web.Controllers
             return View();
         }
     }
-}
+
