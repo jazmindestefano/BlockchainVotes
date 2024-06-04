@@ -47,8 +47,8 @@ namespace VoteSolution.Web.Controllers
         // no cambiar porque rompe con las vistas, dejar para despues
         public IActionResult AllVotes()
         {
-            var votes = _voteService.GetAllVotationsAsync();
-
+            var votes = _voteService.GetAllVotations();
+            votes.ForEach(v => v.Options.ForEach(o => Console.WriteLine(o.Id)));
             var VotesModelLista = VoteViewModel.MapearAListaModel(votes);
 
             return View(VotesModelLista);

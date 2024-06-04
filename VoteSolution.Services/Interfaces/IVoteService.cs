@@ -6,6 +6,10 @@ namespace VoteSolution.Services.Interfaces
     {
         void CreateVotationAsync(Votation votation);
 
-        List<Votation> GetAllVotationsAsync();
+        List<Votation> GetAllVotations();
+
+        Option AddVoteToOption(int optionId);
+
+        Votation GetVotationById(int votationId);
     }
 }
