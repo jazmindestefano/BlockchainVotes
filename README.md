@@ -14,8 +14,3 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 ```sh
 Add-Migration nombrearchivo
 Update-Database
-
-Para remover la migracion
-
-```sh
-Remove-Migration nombrearchivo

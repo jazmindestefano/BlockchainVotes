@@ -18,6 +18,7 @@ namespace VoteSolution.Entities.Data
         {
             modelBuilder.Entity<Votation>(entity =>
             {
+                entity.ToTable("Votation");
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Id).ValueGeneratedOnAdd().IsRequired();
                 entity.Property(e => e.Title).IsRequired().HasMaxLength(50);
@@ -31,6 +32,7 @@ namespace VoteSolution.Entities.Data
 
             modelBuilder.Entity<Option>(entity =>
             {
+                entity.ToTable("Option");
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Id).ValueGeneratedOnAdd().IsRequired();
                 entity.Property(e => e.Name).IsRequired().HasMaxLength(50);

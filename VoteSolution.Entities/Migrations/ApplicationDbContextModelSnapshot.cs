@@ -46,7 +46,7 @@ namespace VoteSolution.Entities.Migrations
 
                     b.HasIndex("VotationId");
 
-                    b.ToTable("Options");
+                    b.ToTable("Option");
                 });
 
             modelBuilder.Entity("VoteSolution.Entities.Models.Votation", b =>
@@ -72,7 +72,7 @@ namespace VoteSolution.Entities.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Votations");
+                    b.ToTable("Votation");
                 });
 
             modelBuilder.Entity("VoteSolution.Entities.Models.Option", b =>

@@ -1,0 +1,44 @@
+@model VoteSolution.Web.Models.VotationDetailsViewModel
+
+@{
+    ViewData["Name"] = "Detalle de la votación";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">@Model.Title</h2>
+    <p class="lead">@Model.Description</p>
+
+    @if (Model.Options.Any())
+    {
+    <form asp-action="EmitVote" asp-controller="Votation" method="post" class="mb-4">
+        <div class="mb-3">
+            <label for="optionId" class="form-label">Select an option:</label>
+            <select id="optionId" name="optionId" class="form-select" required>
+                @foreach (var option in Model.Options)
+                {
+                    <option value="@option.Id">@option.Name</option>
+                }
+            </select>
+        </div>
+        <div>
+            <input type="hidden" id="votationId" name="votationId" value="@Model.Id">
+        </div>
+        <button type="submit" class="btn btn-primary">Vote</button>
+    </form>
+
+    <h4>Current Votes:</h4>
+    <ul class="list-group">
+        @foreach (var option in Model.Options)
+        {
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            @option.Name
+            <span class="badge bg-primary rounded-pill">@option.TotalVotes</span>
+        </li>
+        }
+    </ul>
+    }
+    else
+    {
+    <p class="text-warning">No options available for voting.</p>
+    }
+</div>
