@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using VoteSolution.Services.DTO;
 using VoteSolution.Services.Interfaces;
 using VoteSolution.Web.Models;
 
@@ -8,12 +9,12 @@ namespace VoteSolution.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IVoteService _voteService;
+        private readonly IVotationService _votationService;
 
-        public HomeController(ILogger<HomeController> logger, IVoteService voteService)
+        public HomeController(ILogger<HomeController> logger, IVotationService votationService)
         {
             _logger = logger;
-            _voteService = voteService;
+            _votationService = votationService;
         }
 
         public IActionResult Index()
@@ -39,7 +40,9 @@ namespace VoteSolution.Web.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            _voteService.CreateVotationAsync(model.MapearAEntidad());
+            model.Options.ForEach(Console.WriteLine);
+
+            _votationService.CreateVotation(new CreateVotationDto(model.Title, model.Description, model.Options));
 
             return RedirectToAction("AllVotes");
         }
@@ -47,7 +50,7 @@ namespace VoteSolution.Web.Controllers
         // no cambiar porque rompe con las vistas, dejar para despues
         public IActionResult AllVotes()
         {
-            var votes = _voteService.GetAllVotations();
+            var votes = _votationService.GetAllVotations();
             votes.ForEach(v => v.Options.ForEach(o => Console.WriteLine(o.Id)));
             var VotesModelLista = VoteViewModel.MapearAListaModel(votes);
 

@@ -24,5 +24,10 @@ public class VotationRepository: IVotationRepository
     }
     public Votation GetVotationById(int votationId) => _context.Votations.Include(v => v.Options).Single(v => v.Id == votationId);
     public List<Votation> GetAllVotations() => _context.Votations.Include(v => v.Options).ToList();
-
+    public Votation CreateVotation(Votation newVotation)
+    {
+        _context.Add(newVotation);
+        _context.SaveChanges();
+        return newVotation;
+    }
 }

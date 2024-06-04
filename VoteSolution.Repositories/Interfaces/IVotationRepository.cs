@@ -8,4 +8,5 @@ public interface IVotationRepository
     Option AddVoteToOption(int optionId);
     Votation GetVotationById(int votationId);
     List<Votation> GetAllVotations();
+    Votation CreateVotation(Votation newVotation);
 }

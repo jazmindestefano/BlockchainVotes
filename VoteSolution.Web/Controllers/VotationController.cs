@@ -5,64 +5,54 @@ using VoteSolution.Services.Interfaces;
 using VoteSolution.Web.Models;
 using System.Threading.Tasks;
 using System.Linq;
+using VoteSolution.Services.DTO;
 
 namespace VoteSolution.Web.Controllers;
 
-public class VotationController: Controller
+public class VotationController : Controller
 {
-    private readonly IVoteService _voteService;
-
-    public VotationController(IVoteService voteService)
+    private readonly IVotationService _votationService;
+    public VotationController(IVotationService votationService)
     {
-        _voteService = voteService;
+        _votationService = votationService;
     }
-        public VotationController(IVotationService votationService)
-        {
-            _votationService = votationService;
-        }
 
     public IActionResult VotationDetails(int id)
     {
-        var voting = _voteService.GetVotationById(id);
+        var voting = _votationService.GetVotationById(id);
         var viewModel = new VotationDetailsViewModel(voting);
         return View(viewModel);
     }
-    
+
     [HttpPost]
     public IActionResult EmitVote(int optionId)
     {
-        _voteService.AddVoteToOption(optionId);
+        _votationService.AddVoteToOption(optionId);
         return RedirectToAction("AllVotes", "Home");
     }
-        [HttpGet]
-        public IActionResult Create()
-        {
-            return View();
-        }
 
-        [HttpPost]
-        public async Task<IActionResult> Create(VotationViewModel votationViewModel)
-        {
-            if (ModelState.IsValid)
-            {
-                var votation = new Votation
-                {
-                    Title = votationViewModel.Title,
-                    Description = votationViewModel.Description,
-                    IsActive = votationViewModel.IsActive,
-                    Options = votationViewModel.Options.Select(option => new Option { Name = option }).ToList()
-                };
-
-                await _votationService.CreateVotationAsync(votation);
-                return RedirectToAction("Votation");
-            }
-            return View(votationViewModel);
-        }
-
-        [HttpGet]
-        public IActionResult Votation()
-        {
-            return View();
-        }
+    [HttpGet]
+    public IActionResult Create()
+    {
+        return View();
     }
 
+    [HttpPost]
+    public IActionResult Create(VotationViewModel votationViewModel)
+    {
+        if (ModelState.IsValid)
+        {
+            var votation = new CreateVotationDto(votationViewModel.Title, votationViewModel.Description, votationViewModel.Options);
+            _votationService.CreateVotation(votation);
+            return RedirectToAction("Votation");
+        }
+
+        return View(votationViewModel);
+    }
+
+    [HttpGet]
+    public IActionResult Votation()
+    {
+        return View();
+    }
+}

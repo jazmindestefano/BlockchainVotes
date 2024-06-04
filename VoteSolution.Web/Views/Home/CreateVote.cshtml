@@ -1,4 +1,4 @@
-﻿@model VoteViewModel
+﻿@model VoteSolution.Web.Models.VoteViewModel
 
 @{
     ViewData["Name"] = "Crear Votación";
@@ -18,10 +18,37 @@
         @Html.TextBoxFor(model => model.Description, new { @class = "form-control", type="text" })
         @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
     </div>
-    <button type="submit" class="btn btn-primary">Registrar Votacion</button>
+    <div class="form-group">
+        <label for="options">Options</label>
+        <div id="options-container">
+            <div class="option-group mb-2">
+                <input type="text" name="Options" class="form-control" placeholder="Option" />
+                <button type="button" class="btn btn-danger btn-sm remove-option">Remove</button>
+            </div>
+        </div>
+        <button type="button" id="add-option" class="btn btn-secondary btn-sm mt-2">Add Option</button>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Registrar Votacion</button>
 </form>
-
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('add-option').addEventListener('click', function() {
+            var container = document.getElementById('options-container');
+            var newOption = document.createElement('div');
+            newOption.classList.add('option-group', 'mb-2');
+            newOption.innerHTML = `
+                <input type="text" name="Options" class="form-control" placeholder="Option" />
+                <button type="button" class="btn btn-danger btn-sm remove-option">Remove</button>
+            `;
+            container.appendChild(newOption);
+        });
+
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('remove-option')) {
+                event.target.closest('.option-group').remove();
+            }
+        });
+    </script>
 }

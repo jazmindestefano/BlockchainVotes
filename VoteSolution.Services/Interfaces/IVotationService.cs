@@ -1,10 +1,11 @@
 ﻿using VoteSolution.Entities.Models;
+using VoteSolution.Services.DTO;
 
 namespace VoteSolution.Services.Interfaces
 {
     public interface IVotationService
     {
-        Task CreateVotationAsync(Votation votation);
+        Votation CreateVotation(CreateVotationDto votationForm);
 
         List<Votation> GetAllVotations();
 
