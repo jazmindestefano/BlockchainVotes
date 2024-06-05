@@ -12,6 +12,8 @@ namespace VoteSolution.Services.Interfaces
         Option AddVoteToOption(int optionId);
 
         Votation GetVotationById(int votationId);
+
+        void CloseVotation(int votationId);
         
         
     }

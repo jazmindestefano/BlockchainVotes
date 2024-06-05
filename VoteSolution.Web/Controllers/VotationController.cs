@@ -49,6 +49,18 @@ public class VotationController : Controller
 
         return View(votationViewModel);
     }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult CloseVotation(int id)
+    {
+        var votation = _votationService.GetVotationById(id);
+        if (!votation.IsActive)
+        {
+            return BadRequest("La " + votation.Title + "ya se encuentra cerrada.");
+        }
+        _votationService.CloseVotation(id);
+        return RedirectToAction("VotationDetails", new { id = votation.Id });
+    }
 
     [HttpGet]
     public IActionResult Votation()

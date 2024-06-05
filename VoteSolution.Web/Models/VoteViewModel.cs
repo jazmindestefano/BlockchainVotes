@@ -7,7 +7,8 @@ namespace VoteSolution.Web.Models
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        
+        public Boolean IsActive { get; set; }
+
         public List<string> Options { get; set; } = new List<string>();
 
         public VoteViewModel() {}
@@ -17,6 +18,7 @@ namespace VoteSolution.Web.Models
             Id = entidad.Id;
             Title = entidad.Title;
             Description = entidad.Description;
+            IsActive = entidad.IsActive;
         }
 
         public static List<VoteViewModel> MapearAListaModel(List<Votation> votes)
@@ -31,6 +33,7 @@ namespace VoteSolution.Web.Models
                 Id = Id,
                 Title = Title,
                 Description = Description,
+                IsActive = IsActive,
             };
         }
     }
