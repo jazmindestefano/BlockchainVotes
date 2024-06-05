@@ -7,7 +7,11 @@
 <div class="container mt-5">
     <h2 class="mb-4">@Model.Title</h2>
     <p class="lead">@Model.Description</p>
-
+    @if (!Model.IsActive)
+    {
+        <p class="text-danger">La votación está cerrada.</p>
+        <p class="text-success">La Opción ganadora es: @Model.WinnerOption</p>
+    }else{
     @if (Model.Options.Any())
     {
     <form asp-action="EmitVote" asp-controller="Votation" method="post" class="mb-4">
@@ -40,5 +44,6 @@
     else
     {
     <p class="text-warning">No options available for voting.</p>
-    }
+        }      
+     }
 </div>

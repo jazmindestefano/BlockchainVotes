@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Repositories.Interfaces;
 using VoteSolution.Entities.Data;
 using VoteSolution.Entities.Models;
@@ -29,5 +30,12 @@ public class VotationRepository: IVotationRepository
         _context.Add(newVotation);
         _context.SaveChanges();
         return newVotation;
+    }
+    public void CloseVotation(int votationId)
+    {
+        var votation = GetVotationById(votationId);
+        votation.IsActive = false;
+        _context.Update(votation);
+        _context.SaveChanges();
     }
 }

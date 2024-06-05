@@ -43,5 +43,9 @@ namespace VoteSolution.Services.Services
             // comentado para no hacer demasiadas transacciones, NO DESCOMENTAR
             //await _blockchainService.CreateVoteAsync(votation.Title);
         }
+        public void CloseVotation(int votationId)
+        {
+            _votationRepository.CloseVotation(votationId);
+        }
     }
 }

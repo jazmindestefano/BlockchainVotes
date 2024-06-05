@@ -9,4 +9,5 @@ public interface IVotationRepository
     Votation GetVotationById(int votationId);
     List<Votation> GetAllVotations();
     Votation CreateVotation(Votation newVotation);
+    void CloseVotation(int votationId);
 }
