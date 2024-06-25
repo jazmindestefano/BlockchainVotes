@@ -25,7 +25,6 @@ namespace VoteSolution.Services.Services
 
         public Option AddVoteToOption(int optionId) => _votationRepository.AddVoteToOption(optionId);
 
-        // que el metodo tenga Async, significa que devuelve una Task
         public List<Votation> GetAllVotations() => _votationRepository.GetAllVotations();
 
         public Votation CreateVotation(CreateVotationDto votationForm)
@@ -38,10 +37,9 @@ namespace VoteSolution.Services.Services
                 Options = votationForm.Options.Select(o => new Option(o)).ToList()
             };
 
+            _blockchainService.CreateVotationAsync(votationForm.Title);
+            
             return _votationRepository.CreateVotation(newVotation);
-
-            // comentado para no hacer demasiadas transacciones, NO DESCOMENTAR
-            //await _blockchainService.CreateVoteAsync(votation.Title);
         }
         public void CloseVotation(int votationId)
         {
